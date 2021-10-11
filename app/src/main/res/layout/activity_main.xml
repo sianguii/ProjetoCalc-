@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="5dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -10,11 +11,11 @@
         android:id="@+id/TextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/Calculadora"
         android:textColor="#FA000000"
-        android:textSize="60sp"
+        android:textSize="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.19" />
 
     <EditText
         android:id="@+id/EditText1"
@@ -60,15 +61,15 @@
 
     <RadioGroup
         android:id="@+id/RadioGroup"
-        android:layout_width="257dp"
-        android:layout_height="173dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="269dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="304dp"
         android:checkedButton="@id/RadioButton1"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView1">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <RadioButton
@@ -77,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:text="Somar"
-            android:textSize="25dp"
+            android:textSize="23dp"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="280dp" />
 
@@ -87,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:text="Multiplicação"
-            android:textSize="25dp"
+            android:textSize="23dp"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="280dp" />
 
@@ -97,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:text="Divisão"
-            android:textSize="25dp"
+            android:textSize="23dp"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="280dp" />
 
@@ -107,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:text="Subtração"
-            android:textSize="25dp"
+            android:textSize="23dp"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
             tools:layout_editor_absoluteY="280dp" />
@@ -117,20 +118,18 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="125dp"
         android:text="CALCULAR"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/RadioGroup"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
