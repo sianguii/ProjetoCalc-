@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">CALCULADORA </string>
     <string name="Calculadora">Calculadora</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Somar"> Somar</string>
+    <string name="Multiplicar">Multiplicação</string>
+    <string name="Dividir"> Divisão </string>
+    <string name="Subtrair"> Subtração </string>
+    <style name="Theme.CalculadoraSimples." parent="Theme.MaterialComponents.DayNight"></style>
+
 </resources>
