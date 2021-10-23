@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         val EditText2 = binding.EditText2
         val selectedid = binding.RadioGroup.checkedRadioButtonId
 
-        val N1 = EditText1.text.toString().toInt()
-        val N2 = EditText2.text.toString().toInt()
+        val N1 = EditText1.text.toString().toFloat()
+        val N2 = EditText2.text.toString().toFloat()
 
         val tipcalculate = when (selectedid){
             R.id.RadioButton1 -> Calcular().somar(N1, N2)
